@@ -478,7 +478,8 @@ height: 45px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     padding: 40px;
-    height: 300px;
+    width: 600px;
+    height: 320px;
 }
 
 .box-offer .line {
@@ -522,13 +523,12 @@ height: 45px;
 
 .left-box-offer {
     margin-top: 100px;
-    width: 500px;
 }
 
 .right-box-offer {
     margin-top: -100px;
-    width: 500px;
 }
+
 @media (max-width: 1458px) {
   .left-box-offer{
     margin-top: -100px; 
