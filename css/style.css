@@ -478,7 +478,7 @@ height: 45px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     padding: 40px;
-    height: 304px;
+    height: auto;
     width: 500px;
 }
 
