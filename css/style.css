@@ -478,8 +478,7 @@ height: 45px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     padding: 40px;
-    height: auto;
-    width: 500px;
+    height: 300px;
 }
 
 .box-offer .line {
@@ -499,7 +498,6 @@ height: 45px;
 }
 
 .box-offer h1 {
-
     font-family: Inter;
     font-size: 30px;
     font-weight: 800;
@@ -524,10 +522,12 @@ height: 45px;
 
 .left-box-offer {
     margin-top: 100px;
+    width: 500px;
 }
 
 .right-box-offer {
     margin-top: -100px;
+    width: 500px;
 }
 @media (max-width: 1458px) {
   .left-box-offer{
@@ -536,6 +536,9 @@ height: 45px;
   .right-box-offer {
     margin-top: 50px;
 }
+.box-offer{
+height: auto; 
+  }
 }
 /*** Explorer ***/
 .explorer {
