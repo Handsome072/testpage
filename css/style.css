@@ -593,7 +593,25 @@ font-size: 36px;
     text-align: center;
     margin-bottom: 120px;
 }
+@media (max-width: 768px) {
+    .talent .row > div {
+        margin-bottom: 20px;
+    }
+   .talent img{
+    width: 80px;
+   }
+    .talent h1 {
+        font-size: 28px; 
+    }
 
+    .talent h3 {
+        font-size: 14px;
+    }
+
+    .talent p {
+        font-size: 18px;
+    }
+}
 /*** Communaute ***/
 .communaute h1{
     font-family: Barlow Condensed;
