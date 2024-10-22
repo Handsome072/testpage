@@ -236,17 +236,28 @@ height: 45px;
     color: var(--dark);
 }
 
-@media (max-width: 1200.98px) {
+
+@media (max-width: 1200px) {
     .top-bar { 
-    margin-top:-120px ;
+        margin-top:-120px ;
+        }
+    .navbar-nav {
+        flex-direction: column; 
+        width: 100%; 
     }
-    
+    .navbar-nav .nav-link {
+        padding: 10px 15px; 
+        width: 28%;
+    }
 }
 @media (min-width: 1200.98px) {
     .top-bar { 
     margin-top:0;
-    }
-    
+    }    
+}
+
+.navbar-toggler {
+    border: none;
 }
 
 /*** Header ***/
