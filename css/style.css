@@ -468,7 +468,6 @@ height: 45px;
     border-radius: 30px;
     padding: 40px;
     height: 304px;
-    width: 48%;
 }
 
 .box-offer .line {
@@ -479,17 +478,12 @@ height: 45px;
 
 .box-offer .line-left {
     background-color: #81BAC0;
-    width: 280px;
+    width: 100%;
 }
 
 .box-offer .line-right {
     background: linear-gradient(90.65deg, #F07F65 -38.25%, #FAC16F 129.27%);
-    width: 300px;
-}
-
-.box-offer img {
-    width: 76px;
-    height: 76px;
+    width: 100%;
 }
 
 .box-offer h1 {
@@ -526,7 +520,7 @@ height: 45px;
 
 /*** Explorer ***/
 .explorer {
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 .explorer .img-1{
